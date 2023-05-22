@@ -1,7 +1,7 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: "Roboto", sans-serif
+    font-family: "Roboto", sans-serif;
 }
 
 html, body {
@@ -9,10 +9,12 @@ html, body {
     height: 100%;
 }
 
+/* Selects main containers */
 .content {
     height: 40%;
 }
 
+/* Hero Header & Main Content */
 .top-container {
     background-color: #1F2937;
     padding: 0px 100px;
@@ -82,6 +84,7 @@ html, body {
     width: 50%;
 }
 
+/* Second Container */
 .second-container {
     display: flex;
     justify-content: center;
@@ -113,4 +116,68 @@ html, body {
     width: 150px;
     border: 3px solid #3882F6;
     border-radius: 7px;
+}
+
+/* Third/Quote Container */
+.third-container {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 25px 130px;
+}
+
+.third-container p {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.third-container span {
+    align-self: flex-end;
+    font-weight: bold;
+    padding-right: 20px;
+}
+
+/* Fourth/Call to Action Container */
+.fourth-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cta-container {
+    flex: 1;
+    padding: 50px 20px;
+    margin: 0px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cta-container p {
+    color: #F9FAF8;
+}
+
+.cta-container p:nth-child(2) {
+    font-weight: lighter;
+}
+
+.transparent-signup {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 1px solid #F9FAF8;
+    border-radius: 5px;
+    padding: 8px 15px;
+}
+
+/* Footer  */
+.footer-container {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px ;
 }
